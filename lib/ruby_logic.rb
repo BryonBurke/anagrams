@@ -1,10 +1,11 @@
-class Sentence
-  def initialize(word_to_find, replace_with_word)
-    # @word_to_find = word_to_find
+class Anagram
+  def initialize(word_one, word_two)
+    @word_one = word_one
+    @word_two = word_two
 
   end
 
-  def word_replace()
-    # @initial_sentence[@word_to_find] = @replace_with_word
+  def test_palindrome()
+
 
   end
